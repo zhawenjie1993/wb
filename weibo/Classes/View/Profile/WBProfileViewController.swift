@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WBProfileViewController.swift
 //  weibo
 //
 //  Created by Mac on 2020/4/13.
@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WBProfileViewController: WBBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+    
 
 }
-
