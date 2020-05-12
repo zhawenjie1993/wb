@@ -15,6 +15,7 @@ class WBDiscoverViewController: WBBaseViewController {
         view.backgroundColor = UIColor.gray
         self.title = "发现"
     }
+   
 
 }
 
@@ -31,3 +32,6 @@ extension WBDiscoverViewController {
     }
     
 }
+ 
+
+

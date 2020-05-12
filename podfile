@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+target ‘weibo’ do
+source 'https://github.com/CocoaPods/Specs.git'
+    pod 'MJRefresh', '~> 3.1.14.1'
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'IQKeyboardManager', '~> 5.0.4'
+    pod 'SDAutoLayout', '~> 2.2.0'
+    pod 'SDWebImage', '~> 5.0.0-beta2'
+    pod 'MBProgressHUD', '~> 1.1.0'
+    pod 'TZImagePickerController', '~> 2.0.0.9'
+end

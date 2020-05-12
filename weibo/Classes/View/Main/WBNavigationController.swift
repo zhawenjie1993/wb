@@ -13,7 +13,7 @@ class WBNavigationController:UINavigationController
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationBar.tintColor = UIColor.orange
-        self.navigationBar.isHidden = true
+//        self.navigationBar.isHidden = true
     }
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if children.count > 0 {

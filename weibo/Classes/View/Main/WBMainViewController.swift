@@ -24,6 +24,7 @@ class WBMainViewController: UITabBarController,UITabBarControllerDelegate {
         self.delegate = self
         self.setupChildController()
         self.setupComposeBtn()
+       
     }
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
@@ -33,7 +34,9 @@ class WBMainViewController: UITabBarController,UITabBarControllerDelegate {
         }
         return true
     }
-    
+    deinit {
+        
+    }
 
 }
 
@@ -92,4 +95,9 @@ extension WBMainViewController {
         return nav
         
     }
+    
+    
+    
+    
+    
 }

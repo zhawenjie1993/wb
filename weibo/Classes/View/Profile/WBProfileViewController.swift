@@ -12,7 +12,7 @@ class WBProfileViewController: WBBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//        UIApplication.shared.keyWindow?.rootViewController = WBMessageViewController()
         // Do any additional setup after loading the view.
     }
     
